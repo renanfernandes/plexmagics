@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 # Triggered by Deluge Execute plugin when download completes
 #
 
