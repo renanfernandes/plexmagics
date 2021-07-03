@@ -1,5 +1,5 @@
 # plexmagics
-(https://img.shields.io/github/last-commit/renanfernandes/plexmagics)
+![commit](https://img.shields.io/github/last-commit/renanfernandes/plexmagics)
 
 A Collection of tools to automate my [Plex](http://www.plex.tv) and [Deluge](https://deluge-torrent.org) setup.
 
