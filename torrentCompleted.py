@@ -10,4 +10,5 @@ import sys, subprocess
 syslog('torrentCompleted: Initiating actions..')
 torrentId = sys.argv[1]
 torrentName = sys.argv[2]
+message = "Torrent : " + torrentName + " Successfully downloaded"
 p = subprocess.Popen(["python3", "./pushover.py", torrentId+torrentName], stdin=subprocess.PIPE, stdout=subprocess.PIPE)
