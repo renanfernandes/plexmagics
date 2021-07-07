@@ -16,5 +16,6 @@ message = "Torrent : " + torrentName + " Successfully downloaded"
 p = subprocess.Popen(["python3", "./pushover.py", message], stdin=subprocess.PIPE, stdout=subprocess.PIPE)
 
 syslog('torrentCompleted: lets detect all argvs sent by Deluge...')
-for arg in argv[1:]:
-    syslog(arg)
+syslog(sys.argvs)
+#for arg in argv[1:]:
+#    syslog(arg)
